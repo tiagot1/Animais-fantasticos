@@ -208,10 +208,10 @@ body {
 }
 
 
-.js-tabcontent section{
+[data-tab="content"] section{
   display: none;
 }
-.js-tabcontent section.ativo{
+[data-tab="content"] section.ativo{
   display: block; 
   animation: show .8s forwards;
 }
